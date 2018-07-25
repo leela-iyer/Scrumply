@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		234C80F12108C97800C3340F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234C80F02108C97800C3340F /* AppDelegate.swift */; };
+		234C80F32108C97800C3340F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234C80F22108C97800C3340F /* ViewController.swift */; };
+		234C80F62108C97800C3340F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234C80F42108C97800C3340F /* Main.storyboard */; };
+		234C80F82108C97C00C3340F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 234C80F72108C97C00C3340F /* Assets.xcassets */; };
+		234C80FB2108C97C00C3340F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234C80F92108C97C00C3340F /* LaunchScreen.storyboard */; };
+		234C81062108C97C00C3340F /* ScrumplyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234C81052108C97C00C3340F /* ScrumplyTests.swift */; };
+		234C81112108C97C00C3340F /* ScrumplyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234C81102108C97C00C3340F /* ScrumplyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		234C81022108C97C00C3340F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234C80E52108C97800C3340F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 234C80EC2108C97800C3340F;
+			remoteInfo = Scrumply;
+		};
+		234C810D2108C97C00C3340F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234C80E52108C97800C3340F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 234C80EC2108C97800C3340F;
+			remoteInfo = Scrumply;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		234C80ED2108C97800C3340F /* Scrumply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumply.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		234C80F02108C97800C3340F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		234C80F22108C97800C3340F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		234C80F52108C97800C3340F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		234C80F72108C97C00C3340F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		234C80FA2108C97C00C3340F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		234C80FC2108C97C00C3340F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		234C81012108C97C00C3340F /* ScrumplyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumplyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		234C81052108C97C00C3340F /* ScrumplyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumplyTests.swift; sourceTree = "<group>"; };
+		234C81072108C97C00C3340F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		234C810C2108C97C00C3340F /* ScrumplyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumplyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		234C81102108C97C00C3340F /* ScrumplyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumplyUITests.swift; sourceTree = "<group>"; };
+		234C81122108C97C00C3340F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		234C80EA2108C97800C3340F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234C80FE2108C97C00C3340F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234C81092108C97C00C3340F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		234C80E42108C97800C3340F = {
+			isa = PBXGroup;
+			children = (
+				234C80EF2108C97800C3340F /* Scrumply */,
+				234C81042108C97C00C3340F /* ScrumplyTests */,
+				234C810F2108C97C00C3340F /* ScrumplyUITests */,
+				234C80EE2108C97800C3340F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		234C80EE2108C97800C3340F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				234C80ED2108C97800C3340F /* Scrumply.app */,
+				234C81012108C97C00C3340F /* ScrumplyTests.xctest */,
+				234C810C2108C97C00C3340F /* ScrumplyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		234C80EF2108C97800C3340F /* Scrumply */ = {
+			isa = PBXGroup;
+			children = (
+				234C80F02108C97800C3340F /* AppDelegate.swift */,
+				234C80F22108C97800C3340F /* ViewController.swift */,
+				234C80F42108C97800C3340F /* Main.storyboard */,
+				234C80F72108C97C00C3340F /* Assets.xcassets */,
+				234C80F92108C97C00C3340F /* LaunchScreen.storyboard */,
+				234C80FC2108C97C00C3340F /* Info.plist */,
+			);
+			path = Scrumply;
+			sourceTree = "<group>";
+		};
+		234C81042108C97C00C3340F /* ScrumplyTests */ = {
+			isa = PBXGroup;
+			children = (
+				234C81052108C97C00C3340F /* ScrumplyTests.swift */,
+				234C81072108C97C00C3340F /* Info.plist */,
+			);
+			path = ScrumplyTests;
+			sourceTree = "<group>";
+		};
+		234C810F2108C97C00C3340F /* ScrumplyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				234C81102108C97C00C3340F /* ScrumplyUITests.swift */,
+				234C81122108C97C00C3340F /* Info.plist */,
+			);
+			path = ScrumplyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		234C80EC2108C97800C3340F /* Scrumply */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 234C81152108C97C00C3340F /* Build configuration list for PBXNativeTarget "Scrumply" */;
+			buildPhases = (
+				234C80E92108C97800C3340F /* Sources */,
+				234C80EA2108C97800C3340F /* Frameworks */,
+				234C80EB2108C97800C3340F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scrumply;
+			productName = Scrumply;
+			productReference = 234C80ED2108C97800C3340F /* Scrumply.app */;
+			productType = "com.apple.product-type.application";
+		};
+		234C81002108C97C00C3340F /* ScrumplyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 234C81182108C97C00C3340F /* Build configuration list for PBXNativeTarget "ScrumplyTests" */;
+			buildPhases = (
+				234C80FD2108C97C00C3340F /* Sources */,
+				234C80FE2108C97C00C3340F /* Frameworks */,
+				234C80FF2108C97C00C3340F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				234C81032108C97C00C3340F /* PBXTargetDependency */,
+			);
+			name = ScrumplyTests;
+			productName = ScrumplyTests;
+			productReference = 234C81012108C97C00C3340F /* ScrumplyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		234C810B2108C97C00C3340F /* ScrumplyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 234C811B2108C97C00C3340F /* Build configuration list for PBXNativeTarget "ScrumplyUITests" */;
+			buildPhases = (
+				234C81082108C97C00C3340F /* Sources */,
+				234C81092108C97C00C3340F /* Frameworks */,
+				234C810A2108C97C00C3340F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				234C810E2108C97C00C3340F /* PBXTargetDependency */,
+			);
+			name = ScrumplyUITests;
+			productName = ScrumplyUITests;
+			productReference = 234C810C2108C97C00C3340F /* ScrumplyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		234C80E52108C97800C3340F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Scrumply;
+				TargetAttributes = {
+					234C80EC2108C97800C3340F = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					234C81002108C97C00C3340F = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 234C80EC2108C97800C3340F;
+					};
+					234C810B2108C97C00C3340F = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 234C80EC2108C97800C3340F;
+					};
+				};
+			};
+			buildConfigurationList = 234C80E82108C97800C3340F /* Build configuration list for PBXProject "Scrumply" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 234C80E42108C97800C3340F;
+			productRefGroup = 234C80EE2108C97800C3340F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				234C80EC2108C97800C3340F /* Scrumply */,
+				234C81002108C97C00C3340F /* ScrumplyTests */,
+				234C810B2108C97C00C3340F /* ScrumplyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		234C80EB2108C97800C3340F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234C80FB2108C97C00C3340F /* LaunchScreen.storyboard in Resources */,
+				234C80F82108C97C00C3340F /* Assets.xcassets in Resources */,
+				234C80F62108C97800C3340F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234C80FF2108C97C00C3340F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234C810A2108C97C00C3340F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		234C80E92108C97800C3340F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234C80F32108C97800C3340F /* ViewController.swift in Sources */,
+				234C80F12108C97800C3340F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234C80FD2108C97C00C3340F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234C81062108C97C00C3340F /* ScrumplyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234C81082108C97C00C3340F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234C81112108C97C00C3340F /* ScrumplyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		234C81032108C97C00C3340F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 234C80EC2108C97800C3340F /* Scrumply */;
+			targetProxy = 234C81022108C97C00C3340F /* PBXContainerItemProxy */;
+		};
+		234C810E2108C97C00C3340F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 234C80EC2108C97800C3340F /* Scrumply */;
+			targetProxy = 234C810D2108C97C00C3340F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		234C80F42108C97800C3340F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				234C80F52108C97800C3340F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		234C80F92108C97C00C3340F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				234C80FA2108C97C00C3340F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		234C81132108C97C00C3340F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		234C81142108C97C00C3340F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		234C81162108C97C00C3340F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Scrumply/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SimplyScrumptious.Scrumply;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		234C81172108C97C00C3340F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Scrumply/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SimplyScrumptious.Scrumply;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		234C81192108C97C00C3340F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScrumplyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SimplyScrumptious.ScrumplyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scrumply.app/Scrumply";
+			};
+			name = Debug;
+		};
+		234C811A2108C97C00C3340F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScrumplyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SimplyScrumptious.ScrumplyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scrumply.app/Scrumply";
+			};
+			name = Release;
+		};
+		234C811C2108C97C00C3340F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScrumplyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SimplyScrumptious.ScrumplyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Scrumply;
+			};
+			name = Debug;
+		};
+		234C811D2108C97C00C3340F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScrumplyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SimplyScrumptious.ScrumplyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Scrumply;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		234C80E82108C97800C3340F /* Build configuration list for PBXProject "Scrumply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234C81132108C97C00C3340F /* Debug */,
+				234C81142108C97C00C3340F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		234C81152108C97C00C3340F /* Build configuration list for PBXNativeTarget "Scrumply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234C81162108C97C00C3340F /* Debug */,
+				234C81172108C97C00C3340F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		234C81182108C97C00C3340F /* Build configuration list for PBXNativeTarget "ScrumplyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234C81192108C97C00C3340F /* Debug */,
+				234C811A2108C97C00C3340F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		234C811B2108C97C00C3340F /* Build configuration list for PBXNativeTarget "ScrumplyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234C811C2108C97C00C3340F /* Debug */,
+				234C811D2108C97C00C3340F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 234C80E52108C97800C3340F /* Project object */;
+}
