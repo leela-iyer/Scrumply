@@ -19,7 +19,16 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    // Go to the page where you can choose which recipe you want to use.
+    @IBAction func buttonBreakfastClicked(_ sender: Any) {
+    }
+    
+    @IBAction func buttonLunchClicked(_ sender: Any) {
+    }
+    
+    @IBAction func buttonDinnerClicked(_ sender: Any) {
+    }
 }
+
 
