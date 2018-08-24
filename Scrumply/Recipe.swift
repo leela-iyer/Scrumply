@@ -108,6 +108,71 @@ class breakfastRecipe5{
     }
 }
 
+class lunchRecipe1{
+    // Mark Properties
+    var name: String
+    var ingredients: [String]
+    var steps: [String]
+    var mealType: String
+    
+    //Mark: Methods
+    init(name: String, ingredients: [String], steps: [String], breakfast: [String]) {
+        self.name = "Grilled Cheese and Tomato Soup"
+        self.ingredients = ["Bread", "Cheese", "Tomato Soup"]
+        self.steps = ["Butter four slices of bread." , "Lay them flat on a hot griddle or frying pan." , "Add a slice of cheese to each, and top with another slice of buttered bread." , "Heat on both sides until each sandwich is golden brown and the cheese looks melted." , "Heat up a box of tomato soup." , "Serve with the grilled cheese."]
+        
+        self.mealType = "Lunch"
+    }
+}
 
+class lunchRecipe2{
+    // Mark Properties
+    var name: String
+    var ingredients: [String]
+    var steps: [String]
+    var mealType: String
+    
+    //Mark: Methods
+    init(name: String, ingredients: [String], steps: [String], breakfast: [String]) {
+        self.name = "Caesar Salad"
+        self.ingredients = ["Romaine Lettuce", "Parmesan Cheese", "Croutons" , "Caesar Dressing"]
+        self.steps = ["Use whole leaves; they provide the ideal mix of crispness, surface area, and structure." , "Caesars crowned with a mound of grated Parmesan may look impressive, but all that clumpy cheese mutes the dressing." , "Instead, use a vegetable peeler to thinly shave a modest amount on top for little salty bursts." , "Use your hands to gently toss the lettuce, croutons, and dressing, then top off with the shaved Parm."]
+        
+        self.mealType = "Lunch"
+    }
+}
 
+class lunchRecipe3{
+    // Mark Properties
+    var name: String
+    var ingredients: [String]
+    var steps: [String]
+    var mealType: String
+    
+    //Mark: Methods
+    init(name: String, ingredients: [String], steps: [String], breakfast: [String]) {
+        self.name = "Homemade White Cheddar Shell Macaroni and Cheese"
+        self.ingredients = ["Milk", "Shell Pasta", "White Cheddar Cheese"]
+        self.steps = ["In a medium saucepan, bring the milk and pasta to a simmer over medium heat." , "Cook for about 20 minutes, stirring often and making sure that the milk doesn't boil." , "Once the pasta is al dente, remove from heat and add the cheese." , "Stir until melted." , "If you like it a little creamier, you can add more milk." , "Add salt to taste."]
+        
+        self.mealType = "Lunch"
+    }
+}
+
+class lunchRecipe4{
+    // Mark Properties
+    var name: String
+    var ingredients: [String]
+    var steps: [String]
+    var mealType: String
+    
+    //Mark: Methods
+    init(name: String, ingredients: [String], steps: [String], breakfast: [String]) {
+        self.name = "Pizza Bagels"
+        self.ingredients = ["Bagels", "Shredded Mozzerella Cheese", "Pizza Sauce"]
+        self.steps = ["Cut the bagels in half and lay on a baking sheet." , "On top of each bagel spread on pizza sauce, making sure to cover all spots." , "Top with pepperoni and cheese." , "Put in oven at 375 degrees and bake approximately 10 minutes or until cheese and meat are bubbly." , "(serves 6) prep time 20 minutes."]
+        
+        self.mealType = "Lunch"
+    }
+}
 
