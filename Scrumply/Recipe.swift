@@ -75,4 +75,39 @@ class breakfastRecipe3{
         
     }
 }
+class breakfastRecipe4{
+    // Mark Properties
+    var name: String
+    var ingredients: [String]
+    var steps: [String]
+    var mealType: String
+    
+    //Mark: Methods
+    init(name: String, ingredients: [String], steps: [String], breakfast: [String]) {
+        self.name = "Three Ingredient Pumpkin Oat Clusters"
+        self.ingredients = ["Oats", "Canned Pumpkin", "Maple Syrup"]
+        self.steps = ["Preheat oven to 350F." , "In a mixing bowl, combine oats, pumpkin, and maple syrup." , "Add your choice of add-ins, if desired." , "Place 1 rounded tablespoon of dough onto a baking sheet." , "Bake for 12 to 15 minutes." , "Remove from baking sheet and cool completely."]
+        
+        self.mealType = "Breakfast"
+}
+}
+class breakfastRecipe5{
+    // Mark Properties
+    var name: String
+    var ingredients: [String]
+    var steps: [String]
+    var mealType: String
+    
+    //Mark: Methods
+    init(name: String, ingredients: [String], steps: [String], breakfast: [String]) {
+        self.name = "Three Ingredient Breakfast Cookies"
+        self.ingredients = ["Bananas", "Oats", "Cinnamon"]
+        self.steps = ["Preheat oven to 350 degrees.", "Mash bananas in a medium bowl with fork.", "Add 1 Cup Farmer Direct Co-Op Quick Oats and stir well.", "Add 1 tsp Cinnamon and stir.", "Place rounded tablespoons on to greased baking sheet", "Bake for 15 minutes.", "Enjoy!"]
+        
+        self.mealType = "Breakfast"
+    }
+}
+
+
+
 
