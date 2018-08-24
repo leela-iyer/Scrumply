@@ -170,9 +170,25 @@ class lunchRecipe4{
     init(name: String, ingredients: [String], steps: [String], breakfast: [String]) {
         self.name = "Pizza Bagels"
         self.ingredients = ["Bagels", "Shredded Mozzerella Cheese", "Pizza Sauce"]
-        self.steps = ["Cut the bagels in half and lay on a baking sheet." , "On top of each bagel spread on pizza sauce, making sure to cover all spots." , "Top with pepperoni and cheese." , "Put in oven at 375 degrees and bake approximately 10 minutes or until cheese and meat are bubbly." , "(serves 6) prep time 20 minutes."]
+        self.steps = ["Cut the bagels in half and lay on a baking sheet." , "On top of each bagel spread on pizza sauce, making sure to cover all spots." , "Top with pepperoni and cheese." , "Put in oven at 375 degrees and bake approximately 10 minutes or until cheese and meat are bubbly."]
         
         self.mealType = "Lunch"
     }
 }
 
+class lunchRecipe5{
+    // Mark Properties
+    var name: String
+    var ingredients: [String]
+    var steps: [String]
+    var mealType: String
+    
+    //Mark: Methods
+    init(name: String, ingredients: [String], steps: [String], breakfast: [String]) {
+        self.name = "Hummus and Cucumber Crostinis"
+        self.ingredients = ["Bagel Chips", "Hummus", "English Cucumber"]
+        self.steps = ["Dividing evenly, top the bagel chips with the hummus and cucumber."]
+        
+        self.mealType = "Lunch"
+    }
+}
