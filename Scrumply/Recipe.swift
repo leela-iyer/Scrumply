@@ -192,3 +192,37 @@ class lunchRecipe5{
         self.mealType = "Lunch"
     }
 }
+
+class dinnerRecipe1{
+    // Mark Properties
+    var name: String
+    var ingredients: [String]
+    var steps: [String]
+    var mealType: String
+    
+    //Mark: Methods
+    init(name: String, ingredients: [String], steps: [String], breakfast: [String]) {
+        self.name = "BBQ Sweet Potato"
+        self.ingredients = ["Sweet Potato", "Chicken Breast", "BBQ Sauce" , "Parsley/Green Onion"]
+        self.steps = ["Preheat oven to 425 degrees F. Lay sweet potatoes cut side up on a large baking sheet." , "Roast until tender, about 35 minutes, depending on size of your potatoes." , "In a saucepan set to medium-low, stir together chicken and BBQ sauce." , "Heat until warm, 5-10 minutes." , "Top each potato with scoopfuls of chicken." , "Spoon over additional BBQ sauce and sprinkle with chopped parsley or sliced green onions, if desired." , "Enjoy!"]
+        
+        self.mealType = "Dinner"
+    }
+}
+
+class dinnerRecipe2{
+    // Mark Properties
+    var name: String
+    var ingredients: [String]
+    var steps: [String]
+    var mealType: String
+    
+    //Mark: Methods
+    init(name: String, ingredients: [String], steps: [String], breakfast: [String]) {
+        self.name = "Black Bean Soup"
+        self.ingredients = ["Black Beans", "Chicken Broth", "Tomatos"]
+        self.steps = ["Combine all ingredients in a medium pot." , "Bring to a boil and simmer for 10 minutes." , "Remove from stove and blend using an immersion blender or a traditional blender."]
+        
+        self.mealType = "Dinner"
+    }
+}
