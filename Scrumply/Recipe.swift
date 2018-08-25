@@ -226,3 +226,54 @@ class dinnerRecipe2{
         self.mealType = "Dinner"
     }
 }
+
+class dinnerRecipe3{
+    // Mark Properties
+    var name: String
+    var ingredients: [String]
+    var steps: [String]
+    var mealType: String
+    
+    //Mark: Methods
+    init(name: String, ingredients: [String], steps: [String], breakfast: [String]) {
+        self.name = "Teriyaki Chicken"
+        self.ingredients = ["Soy Sauce", "Chicken Breast", "Sugar"]
+        self.steps = ["Sear the chicken thighs evenly in a pan, then flip." , "Add the soy sauce and brown sugar, stirring and bringing to a boil." , "Stir until the sauce has reduced and evenly glazes the chicken." , "Serve with rice, if desired!" , "Enjoy!"]
+        
+        self.mealType = "Dinner"
+    }
+}
+
+class dinnerRecipe4{
+    // Mark Properties
+    var name: String
+    var ingredients: [String]
+    var steps: [String]
+    var mealType: String
+    
+    //Mark: Methods
+    init(name: String, ingredients: [String], steps: [String], breakfast: [String]) {
+        self.name = "Cauliflower Soup"
+        self.ingredients = ["Olive Oil", "Onions", "Cauliflower", "Water", "Salt to Taste" , "Pepper to taste"]
+        self.steps = ["Warm the olive oil in a heavy-bottomed pan." , "Sweat the onion in the olive oil over low heat without letting it brown for 15 minutes." , "Add the cauliflower, salt to taste, and 1/2 cup water." , "Raise the heat slightly, cover the pot tightly and stew the cauliflower for 15 to 18 minutes, or until tender." , "Then add another 4 1/2 cups hot water, bring to a low simmer and cook an additional 20 minutes uncovered." , "Working in batches, purée the soup in a blender to a very smooth, creamy consistency." , "Let the soup stand for 20 minutes." , "In this time it will thicken slightly." , "Thin the soup with 1/2 cup hot water." , "Reheat the soup." , "Serve hot, drizzled with a thin stream of extra-virgin olive oil and freshly ground black pepper."]
+        
+        self.mealType = "Dinner"
+    }
+}
+
+class dinnerRecipe5{
+    // Mark Properties
+    var name: String
+    var ingredients: [String]
+    var steps: [String]
+    var mealType: String
+    
+    //Mark: Methods
+    init(name: String, ingredients: [String], steps: [String], breakfast: [String]) {
+        self.name = "Chili"
+        self.ingredients = ["Cooked and Drained Ground Beef", "Diced Tomatos", "Chili Beans"]
+        self.steps = ["Mix the meat, beans and tomatoes together in large pot, bring it to a boil and then simmer for about 30 minutes."]
+        
+        self.mealType = "Dinner"
+    }
+}
