@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_9" orientation="landscape">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,22 +15,22 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Scrumply" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="unf-mb-RaU">
-                                <rect key="frame" x="44" y="0.0" width="768" height="354"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="ScrumplyLogoCopyPowerPoint-1" translatesAutoresizingMaskIntoConstraints="NO" id="rjz-cM-cHm">
-                                        <rect key="frame" x="139" y="0.0" width="490" height="0.0"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ScrumplyLogoCopyPowerPoint-1" translatesAutoresizingMaskIntoConstraints="NO" id="rjz-cM-cHm">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="216"/>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="PictureForHomepage-2" translatesAutoresizingMaskIntoConstraints="NO" id="WIg-sO-dx2">
-                                        <rect key="frame" x="113" y="35" width="542" height="284"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PictureForHomepage-2" translatesAutoresizingMaskIntoConstraints="NO" id="WIg-sO-dx2">
+                                        <rect key="frame" x="0.0" y="251" width="375" height="305"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iC0-KT-zzF" userLabel="Breakfast">
-                                        <rect key="frame" x="93.666666666666686" y="354" width="580.66666666666652" height="0.0"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iC0-KT-zzF" userLabel="Breakfast">
+                                        <rect key="frame" x="93.666666666666671" y="591" width="187.66666666666663" height="143"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="28"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -76,40 +76,40 @@
             <objects>
                 <viewController id="bZE-4U-vzV" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jdJ-wM-YHC">
-                        <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="gKV-Ec-K4m" userLabel="vert Stack View">
-                                <rect key="frame" x="44" y="0.0" width="724" height="219"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="273"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Whats Cooking?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iaj-Os-h2u">
-                                        <rect key="frame" x="0.0" y="0.0" width="724" height="30.666666666666668"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30.666666666666668"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="28"/>
                                         <color key="textColor" red="0.034335362895128299" green="0.45608904267061345" blue="0.70482217950632031" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Type:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DKQ-l6-c0Q">
-                                        <rect key="frame" x="0.0" y="30.666666666666671" width="724" height="26.333333333333329"/>
+                                        <rect key="frame" x="0.0" y="30.666666666666671" width="375" height="26.333333333333329"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="24"/>
                                         <color key="textColor" red="0.034335362895128299" green="0.45608904267061345" blue="0.70482217950632031" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bfk-Bt-auO">
-                                        <rect key="frame" x="0.0" y="57" width="724" height="162"/>
+                                        <rect key="frame" x="0.0" y="57" width="375" height="216"/>
                                     </pickerView>
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6Kx-S1-GGD">
-                                <rect key="frame" x="44" y="219" width="724" height="135"/>
+                                <rect key="frame" x="0.0" y="317" width="375" height="461"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Results" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ifw-XP-bCf">
-                                        <rect key="frame" x="325.66666666666669" y="0.0" width="73" height="26.333333333333332"/>
+                                        <rect key="frame" x="151" y="0.0" width="73" height="26.333333333333332"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="24"/>
                                         <color key="textColor" red="0.034335362895128299" green="0.45608904267061345" blue="0.70482217950632031" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="eO7-ew-VZx">
-                                        <rect key="frame" x="202" y="26.33333333333335" width="320" height="108.66666666666669"/>
+                                        <rect key="frame" x="27.666666666666657" y="26.333333333333314" width="320" height="434.66666666666669"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </tableView>
                                 </subviews>
