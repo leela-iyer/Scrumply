@@ -10,10 +10,15 @@ import UIKit
 
 class RecipeViewController: UIViewController {
 
+    @IBOutlet weak var servingSizeLabel: UILabel!
+    var recipe = Recipe()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        // For testing
+        
     }
 
     override func didReceiveMemoryWarning() {
