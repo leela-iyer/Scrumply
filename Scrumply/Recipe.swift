@@ -13,35 +13,22 @@ class Recipe {
     var name: String = ""
     var ingredients: [String] = []
     var steps: [String] = []
-    var mealType: [String] = []
+    var mealType: String = ""
+    var servingSize: Int = 0
+    
     // Mark: Methods
-    init(name: String, ingredients: [String], steps: [String], mealType: [String]) {
+    init(name: String, ingredients: [String], steps: [String], mealType: String, servingSize: Int) {
         self.name = name
         self.ingredients = ingredients
         self.steps = steps
         self.mealType = mealType
-        
-        
-        
+        self.servingSize = servingSize
     }
 }
 
-class breakfastRecipe1 {
-    // Mark Properties
-    var name: String
-    var ingredients: [String]
-    var steps: [String]
-    var mealType: String
-    
-    //Mark: Methods
-    init(name: String, ingredients: [String], steps: [String], breakfast: [String]) {
-        self.name = "Oatmeal"
-        self.ingredients = ["1 Cup of Old-Fashioned Oats", "Milk", "1 Cup Water", "1/8 Teaspoon Kosher Salt"]
-        self.steps = ["Combine oats, milk, water, salt, and cinnamon in a medium saucepan.", "Bring to a boil, then reduce heat to low.", "Simmer uncovered for 3 to 5 minutes until thickened, stirring occasionally.", "Remove from heat and let cool slightly.", "Divide equally between two bowls.", "Drizzle each serving with 1/2 teaspoon honey.", "Add additional desired toppings and serve."]
-        self.mealType = "Breakfast"
-        
-    }
-}
+var breakfastRecipe1 = Recipe(name: "Oatmeal", ingredients: ["1 Cup of Old-Fashioned Oats", "Milk", "1 Cup Water", "1/8 Teaspoon Kosher Salt"], steps: ["Combine oats, milk, water, salt, and cinnamon in a medium saucepan.", "Bring to a boil, then reduce heat to low.", "Simmer uncovered for 3 to 5 minutes until thickened, stirring occasionally.", "Remove from heat and let cool slightly.", "Divide equally between two bowls.", "Drizzle each serving with 1/2 teaspoon honey.", "Add additional desired toppings and serve."], mealType: "Breakfast", servingSize: 1)
+
+
 class breakfastRecipe2 {
     // Mark Properties
     var name: String
