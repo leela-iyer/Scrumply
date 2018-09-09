@@ -220,6 +220,42 @@
             </objects>
             <point key="canvasLocation" x="900" y="12"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="el4-ml-dfC">
+            <objects>
+                <viewController id="ht8-8e-elM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sxX-E4-uKB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Scrumply" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HMQ-xt-cSq" userLabel="About Label">
+                                <rect key="frame" x="79" y="44" width="217" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Charter-Black" family="Charter" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="adZ-Us-NSD">
+                                <rect key="frame" x="16" y="631" width="343" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2OX-CR-3Od">
+                                <rect key="frame" x="28" y="86" width="318" height="523"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Welcome to Scrumply! An app that provides you with simply scrumptious meals made with 4-ingredients or less. If you are low on time or money, but still want to provide yourself and others with delicious, nutrious meals Scrumply has your back. Our goal is to make sure that everyone gets a delicious meal despite their lack of time or ingredients! Scrumply has made it easy for you to find dishes for each meal that don’t require lots of time or ingredients. We hope you enjoy your Scrumply meal! </string>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Zb7-Ea-ITP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Syc-Nn-N0a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1789.5999999999999" y="11.822660098522167"/>
+        </scene>
     </scenes>
     <resources>
         <image name="PictureForHomepage-2" width="542" height="305"/>
