@@ -87,31 +87,31 @@
                                 <rect key="frame" x="10" y="54" width="355" height="714"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Whats Cooking?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iaj-Os-h2u">
-                                        <rect key="frame" x="0.0" y="0.0" width="355" height="26.666666666666668"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="25.333333333333332"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="28"/>
                                         <color key="textColor" red="0.034335362895128299" green="0.45608904267061345" blue="0.70482217950632031" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Type:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DKQ-l6-c0Q">
-                                        <rect key="frame" x="0.0" y="36.666666666666671" width="355" height="23"/>
+                                        <rect key="frame" x="0.0" y="35.333333333333329" width="355" height="21.666666666666671"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="24"/>
                                         <color key="textColor" red="0.034335362895128299" green="0.45608904267061345" blue="0.70482217950632031" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bfk-Bt-auO">
-                                        <rect key="frame" x="0.0" y="69.666666666666671" width="355" height="75.000000000000014"/>
+                                        <rect key="frame" x="0.0" y="67" width="355" height="75"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="75" id="ktW-ru-lNk"/>
                                         </constraints>
                                     </pickerView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Results" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ifw-XP-bCf">
-                                        <rect key="frame" x="0.0" y="154.66666666666666" width="355" height="23"/>
+                                        <rect key="frame" x="0.0" y="152" width="355" height="21.666666666666657"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="24"/>
                                         <color key="textColor" red="0.034335362895128299" green="0.45608904267061345" blue="0.70482217950632031" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="eO7-ew-VZx">
-                                        <rect key="frame" x="0.0" y="187.66666666666669" width="355" height="526.33333333333326"/>
+                                        <rect key="frame" x="0.0" y="183.66666666666669" width="355" height="530.33333333333326"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </tableView>
                                 </subviews>
@@ -134,10 +134,10 @@
             </objects>
             <point key="canvasLocation" x="61.600000000000001" y="10.344827586206897"/>
         </scene>
-        <!--View Controller-->
+        <!--Recipe View Controller-->
         <scene sceneID="hry-0f-bhS">
             <objects>
-                <viewController id="qdl-If-9Gf" sceneMemberID="viewController">
+                <viewController id="qdl-If-9Gf" customClass="RecipeViewController" customModule="Scrumply" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7qP-gg-fqd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -240,7 +240,7 @@
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2OX-CR-3Od">
                                         <rect key="frame" x="0.0" y="30.666666666666657" width="355" height="467.33333333333337"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <string key="text">Welcome to Scrumply! An app that provides you with simply scrumptious meals made with 4-ingredients or less. If you are low on time or money, but still want to provide yourself and others with delicious, nutrious meals, Scrumply has your back. Our goal is to make sure that everyone gets a delicious meal despite their lack of time or ingredients! Scrumply has made it easy for you to find dishes for each meal that don’t require lots of time or ingredients. We hope you enjoy your simply scrumptious meal! </string>
+                                        <string key="text">Welcome to Scrumply! An app that provides you with simply scrumptious meals made with 5-ingredients or less. If you are low on time or money, but still want to provide yourself and others with delicious, nutrious meals, Scrumply has your back. Our goal is to make sure that everyone gets a delicious meal despite their lack of time or ingredients! Scrumply has made it easy for you to find dishes for each meal that don’t require lots of time or ingredients. We hope you enjoy your simply scrumptious meal! </string>
                                         <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="22"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>

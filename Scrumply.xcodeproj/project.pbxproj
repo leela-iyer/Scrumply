@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14729EF72145CCF4001582A8 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14729EF62145CCF4001582A8 /* RecipeViewController.swift */; };
 		234C80F12108C97800C3340F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234C80F02108C97800C3340F /* AppDelegate.swift */; };
 		234C80F32108C97800C3340F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234C80F22108C97800C3340F /* ViewController.swift */; };
 		234C80F62108C97800C3340F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234C80F42108C97800C3340F /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14729EF62145CCF4001582A8 /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
 		234C80ED2108C97800C3340F /* Scrumply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumply.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		234C80F02108C97800C3340F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		234C80F22108C97800C3340F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				23604FC021456E9C00BA43EF /* RecipePickerViewController.swift */,
 				234C80F22108C97800C3340F /* ViewController.swift */,
 				234C80F42108C97800C3340F /* Main.storyboard */,
+				14729EF62145CCF4001582A8 /* RecipeViewController.swift */,
 				234C80F72108C97C00C3340F /* Assets.xcassets */,
 				234C80F92108C97C00C3340F /* LaunchScreen.storyboard */,
 				234C80FC2108C97C00C3340F /* Info.plist */,
@@ -266,6 +269,7 @@
 				239F9666212CD121006B3C8E /* Recipe.swift in Sources */,
 				234C80F32108C97800C3340F /* ViewController.swift in Sources */,
 				234C80F12108C97800C3340F /* AppDelegate.swift in Sources */,
+				14729EF72145CCF4001582A8 /* RecipeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
