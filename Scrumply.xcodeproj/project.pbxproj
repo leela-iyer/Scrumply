@@ -14,6 +14,7 @@
 		234C80FB2108C97C00C3340F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234C80F92108C97C00C3340F /* LaunchScreen.storyboard */; };
 		234C81062108C97C00C3340F /* ScrumplyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234C81052108C97C00C3340F /* ScrumplyTests.swift */; };
 		234C81112108C97C00C3340F /* ScrumplyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234C81102108C97C00C3340F /* ScrumplyUITests.swift */; };
+		23604FC121456E9C00BA43EF /* RecipePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23604FC021456E9C00BA43EF /* RecipePickerViewController.swift */; };
 		239F9666212CD121006B3C8E /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239F9665212CD121006B3C8E /* Recipe.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		234C810C2108C97C00C3340F /* ScrumplyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumplyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		234C81102108C97C00C3340F /* ScrumplyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumplyUITests.swift; sourceTree = "<group>"; };
 		234C81122108C97C00C3340F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23604FC021456E9C00BA43EF /* RecipePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipePickerViewController.swift; sourceTree = "<group>"; };
 		239F9665212CD121006B3C8E /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				234C80F02108C97800C3340F /* AppDelegate.swift */,
+				23604FC021456E9C00BA43EF /* RecipePickerViewController.swift */,
 				234C80F22108C97800C3340F /* ViewController.swift */,
 				234C80F42108C97800C3340F /* Main.storyboard */,
 				234C80F72108C97C00C3340F /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23604FC121456E9C00BA43EF /* RecipePickerViewController.swift in Sources */,
 				239F9666212CD121006B3C8E /* Recipe.swift in Sources */,
 				234C80F32108C97800C3340F /* ViewController.swift in Sources */,
 				234C80F12108C97800C3340F /* AppDelegate.swift in Sources */,
