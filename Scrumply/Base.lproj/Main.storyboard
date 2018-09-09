@@ -228,27 +228,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Scrumply" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HMQ-xt-cSq" userLabel="About Label">
-                                <rect key="frame" x="79" y="44" width="217" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Charter-Black" family="Charter" pointSize="25"/>
-                                <color key="textColor" red="0.18493624332603986" green="0.57283053578928356" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2OX-CR-3Od">
-                                <rect key="frame" x="28" y="86" width="318" height="523"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Welcome to Scrumply! An app that provides you with simply scrumptious meals made with 4-ingredients or less. If you are low on time or money, but still want to provide yourself and others with delicious, nutrious meals, Scrumply has your back. Our goal is to make sure that everyone gets a delicious meal despite their lack of time or ingredients! Scrumply has made it easy for you to find dishes for each meal that don’t require lots of time or ingredients. We hope you enjoy your simply scrumptious meal! </string>
-                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="24"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="adZ-Us-NSD">
-                                <rect key="frame" x="16" y="629" width="343" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="D2N-6k-aLD">
+                                <rect key="frame" x="10" y="54" width="355" height="748"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Scrumply" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HMQ-xt-cSq" userLabel="About Label">
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="30.666666666666668"/>
+                                        <fontDescription key="fontDescription" name="Charter-Black" family="Charter" pointSize="25"/>
+                                        <color key="textColor" red="0.18493624332603986" green="0.57283053578928356" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2OX-CR-3Od">
+                                        <rect key="frame" x="0.0" y="30.666666666666657" width="355" height="467.33333333333337"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">Welcome to Scrumply! An app that provides you with simply scrumptious meals made with 4-ingredients or less. If you are low on time or money, but still want to provide yourself and others with delicious, nutrious meals, Scrumply has your back. Our goal is to make sure that everyone gets a delicious meal despite their lack of time or ingredients! Scrumply has made it easy for you to find dishes for each meal that don’t require lots of time or ingredients. We hope you enjoy your simply scrumptious meal! </string>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="22"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AboutScreenPicture" translatesAutoresizingMaskIntoConstraints="NO" id="adZ-Us-NSD">
+                                        <rect key="frame" x="0.0" y="498" width="355" height="250"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="250" id="W8W-0c-N8D"/>
+                                            <constraint firstAttribute="height" constant="135" id="mqX-US-XnK"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="W8W-0c-N8D"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular">
+                                            <mask key="constraints">
+                                                <include reference="W8W-0c-N8D"/>
+                                                <exclude reference="mqX-US-XnK"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="D2N-6k-aLD" firstAttribute="leading" secondItem="Zb7-Ea-ITP" secondAttribute="leading" constant="10" id="Lt4-lT-6dg"/>
+                            <constraint firstAttribute="trailing" secondItem="D2N-6k-aLD" secondAttribute="trailing" constant="10" id="lsQ-nB-qUe"/>
+                            <constraint firstAttribute="bottom" secondItem="D2N-6k-aLD" secondAttribute="bottom" constant="10" id="rS0-pS-FcU"/>
+                            <constraint firstItem="D2N-6k-aLD" firstAttribute="top" secondItem="Zb7-Ea-ITP" secondAttribute="top" constant="10" id="sGZ-sF-AGP"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Zb7-Ea-ITP"/>
                     </view>
                 </viewController>
@@ -258,6 +281,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="AboutScreenPicture" width="5784" height="3520"/>
         <image name="PictureForHomepage-2" width="542" height="305"/>
         <image name="ScrumplyLogoCopyPowerPoint-1" width="490" height="216"/>
     </resources>
