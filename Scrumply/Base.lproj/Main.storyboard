@@ -87,31 +87,31 @@
                                 <rect key="frame" x="10" y="54" width="355" height="714"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Whats Cooking?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iaj-Os-h2u">
-                                        <rect key="frame" x="0.0" y="0.0" width="355" height="24.333333333333332"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="26.666666666666668"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="28"/>
                                         <color key="textColor" red="0.034335362895128299" green="0.45608904267061345" blue="0.70482217950632031" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Type:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DKQ-l6-c0Q">
-                                        <rect key="frame" x="0.0" y="34.333333333333329" width="355" height="20.666666666666671"/>
+                                        <rect key="frame" x="0.0" y="36.666666666666671" width="355" height="23"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="24"/>
                                         <color key="textColor" red="0.034335362895128299" green="0.45608904267061345" blue="0.70482217950632031" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bfk-Bt-auO">
-                                        <rect key="frame" x="0.0" y="65" width="355" height="75"/>
+                                        <rect key="frame" x="0.0" y="69.666666666666671" width="355" height="75.000000000000014"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="75" id="ktW-ru-lNk"/>
                                         </constraints>
                                     </pickerView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Results" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ifw-XP-bCf">
-                                        <rect key="frame" x="0.0" y="150" width="355" height="20.666666666666657"/>
+                                        <rect key="frame" x="0.0" y="154.66666666666666" width="355" height="23"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="24"/>
                                         <color key="textColor" red="0.034335362895128299" green="0.45608904267061345" blue="0.70482217950632031" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="eO7-ew-VZx">
-                                        <rect key="frame" x="0.0" y="180.66666666666669" width="355" height="533.33333333333326"/>
+                                        <rect key="frame" x="0.0" y="187.66666666666669" width="355" height="526.33333333333326"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </tableView>
                                 </subviews>
@@ -152,39 +152,39 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Serving Size:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sdr-px-sHy" userLabel="Serving Size Label">
-                                        <rect key="frame" x="0.0" y="110" width="355" height="13.666666666666671"/>
+                                        <rect key="frame" x="0.0" y="110" width="355" height="21.666666666666657"/>
                                         <color key="tintColor" red="0.1849362433" green="0.57283053579999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredients:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="05a-jI-eah" userLabel="Ingredients Label">
-                                        <rect key="frame" x="0.0" y="133.66666666666666" width="355" height="21.666666666666657"/>
+                                        <rect key="frame" x="0.0" y="141.66666666666666" width="355" height="21.666666666666657"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="u6t-f1-oB7" userLabel="Ingredients List">
-                                        <rect key="frame" x="0.0" y="165.33333333333334" width="355" height="100.00000000000003"/>
+                                        <rect key="frame" x="0.0" y="173.33333333333334" width="355" height="100.00000000000003"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="lqz-RS-DRG"/>
                                         </constraints>
                                     </tableView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cook Time:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6h-Bq-MAT" userLabel="Cook Time Label">
-                                        <rect key="frame" x="0.0" y="275.33333333333331" width="91.666666666666671" height="21.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="283.33333333333331" width="91.666666666666671" height="21.666666666666686"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prep:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QYA-aN-P6X" userLabel="Prep Label">
-                                        <rect key="frame" x="0.0" y="307" width="355" height="21.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="315" width="355" height="21.666666666666686"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Vbh-gV-7ab" userLabel="Steps List">
-                                        <rect key="frame" x="0.0" y="338.66666666666674" width="355" height="342.33333333333326"/>
+                                        <rect key="frame" x="0.0" y="346.66666666666674" width="355" height="334.33333333333326"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </tableView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enjoy Your Simply Scrumptious Meal!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vsa-7O-B6W" userLabel="Enjoy Label">
@@ -228,27 +228,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Scrumply" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HMQ-xt-cSq" userLabel="About Label">
-                                <rect key="frame" x="79" y="44" width="217" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Charter-Black" family="Charter" pointSize="25"/>
-                                <color key="textColor" red="0.18493624332603986" green="0.57283053578928356" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2OX-CR-3Od">
-                                <rect key="frame" x="28" y="86" width="318" height="523"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Welcome to Scrumply! An app that provides you with simply scrumptious meals made with 4-ingredients or less. If you are low on time or money, but still want to provide yourself and others with delicious, nutrious meals, Scrumply has your back. Our goal is to make sure that everyone gets a delicious meal despite their lack of time or ingredients! Scrumply has made it easy for you to find dishes for each meal that don’t require lots of time or ingredients. We hope you enjoy your simply scrumptious meal! </string>
-                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="24"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="adZ-Us-NSD">
-                                <rect key="frame" x="16" y="629" width="343" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="D2N-6k-aLD">
+                                <rect key="frame" x="10" y="54" width="355" height="748"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Scrumply" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HMQ-xt-cSq" userLabel="About Label">
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="30.666666666666668"/>
+                                        <fontDescription key="fontDescription" name="Charter-Black" family="Charter" pointSize="25"/>
+                                        <color key="textColor" red="0.18493624332603986" green="0.57283053578928356" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2OX-CR-3Od">
+                                        <rect key="frame" x="0.0" y="30.666666666666657" width="355" height="467.33333333333337"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">Welcome to Scrumply! An app that provides you with simply scrumptious meals made with 4-ingredients or less. If you are low on time or money, but still want to provide yourself and others with delicious, nutrious meals, Scrumply has your back. Our goal is to make sure that everyone gets a delicious meal despite their lack of time or ingredients! Scrumply has made it easy for you to find dishes for each meal that don’t require lots of time or ingredients. We hope you enjoy your simply scrumptious meal! </string>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="22"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AboutScreenPicture" translatesAutoresizingMaskIntoConstraints="NO" id="adZ-Us-NSD">
+                                        <rect key="frame" x="0.0" y="498" width="355" height="250"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="250" id="W8W-0c-N8D"/>
+                                            <constraint firstAttribute="height" constant="135" id="mqX-US-XnK"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="W8W-0c-N8D"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular">
+                                            <mask key="constraints">
+                                                <include reference="W8W-0c-N8D"/>
+                                                <exclude reference="mqX-US-XnK"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="D2N-6k-aLD" firstAttribute="leading" secondItem="Zb7-Ea-ITP" secondAttribute="leading" constant="10" id="Lt4-lT-6dg"/>
+                            <constraint firstAttribute="trailing" secondItem="D2N-6k-aLD" secondAttribute="trailing" constant="10" id="lsQ-nB-qUe"/>
+                            <constraint firstAttribute="bottom" secondItem="D2N-6k-aLD" secondAttribute="bottom" constant="10" id="rS0-pS-FcU"/>
+                            <constraint firstItem="D2N-6k-aLD" firstAttribute="top" secondItem="Zb7-Ea-ITP" secondAttribute="top" constant="10" id="sGZ-sF-AGP"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Zb7-Ea-ITP"/>
                     </view>
                 </viewController>
@@ -258,6 +281,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="AboutScreenPicture" width="5784" height="3520"/>
         <image name="PictureForHomepage-2" width="542" height="305"/>
         <image name="ScrumplyLogoCopyPowerPoint-1" width="490" height="216"/>
     </resources>
