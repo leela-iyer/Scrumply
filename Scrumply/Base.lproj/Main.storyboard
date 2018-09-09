@@ -184,12 +184,25 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+<<<<<<< HEAD
+<<<<<<< HEAD
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Prep Time:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QYA-aN-P6X" userLabel="Prep Label">
+                                        <rect key="frame" x="0.0" y="393.33333333333331" width="355" height="21.666666666666686"/>
+=======
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prep:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QYA-aN-P6X" userLabel="Prep Label">
 <<<<<<< HEAD
                                         <rect key="frame" x="0.0" y="315" width="345" height="21.666666666666686"/>
+<<<<<<< HEAD
 =======
                                         <rect key="frame" x="0.0" y="393.33333333333331" width="355" height="21.666666666666686"/>
 >>>>>>> bb8f67eabf8f2d30d3f0b0b925f577049354786d
+=======
+>>>>>>> af4fe2e35636736e17c3518325d649b5dd3bcf0f
+=======
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prep:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QYA-aN-P6X" userLabel="Prep Label">
+                                        <rect key="frame" x="0.0" y="315" width="345" height="21.666666666666686"/>
+>>>>>>> af4fe2e35636736e17c3518325d649b5dd3bcf0f
+>>>>>>> c53077f341554665db2d18d073ddb608a9032ded
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
