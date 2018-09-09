@@ -36,7 +36,7 @@ class breakfastRecipe1 {
     //Mark: Methods
     init(name: String, ingredients: [String], steps: [String], breakfast: [String]) {
         self.name = "Oatmeal"
-        self.ingredients = ["1 Cup of Old-Fashioned Oats", "Milk", "1 Cup Water", "1/8 Teaspoon Kosher Salt", "1/2 teaspoon of Ground Cinnamon", "1 Teaspoon Honey"]
+        self.ingredients = ["1 Cup of Old-Fashioned Oats", "Milk", "1 Cup Water", "1/8 Teaspoon Kosher Salt"]
         self.steps = ["Combine oats, milk, water, salt, and cinnamon in a medium saucepan.", "Bring to a boil, then reduce heat to low.", "Simmer uncovered for 3 to 5 minutes until thickened, stirring occasionally.", "Remove from heat and let cool slightly.", "Divide equally between two bowls.", "Drizzle each serving with 1/2 teaspoon honey.", "Add additional desired toppings and serve."]
         self.mealType = "Breakfast"
         
@@ -68,7 +68,7 @@ class breakfastRecipe3{
     //Mark: Methods
     init(name: String, ingredients: [String], steps: [String], breakfast: [String]) {
         self.name = "Crepes"
-        self.ingredients = ["Two Eggs", "One Cup of All Purpose Flour", "1/2 Cup of Milk" , "1/2 Cup of Water" , "1/4 Teaspoon of Salt" , "Two Tablespoons of Butter"]
+        self.ingredients = ["Two Eggs", "One Cup of All Purpose Flour", "1/2 Cup of Milk" , "1/2 Cup of Water", "Two Tablespoons of Butter"]
         self.steps = ["In a large mixing bowl, whisk together the flour and the eggs." , "Gradually add in the milk and water, stirring to combine." , "Add the salt and butter; beat until smooth." , "Heat a lightly oiled griddle or frying pan over medium high heat." , "Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each crepe." , "Tilt the pan with a circular motion so that the batter coats the surface evenly." , "Cook the crepe for about 2 minutes, until the bottom is light brown." , "Loosen with a spatula, turn and cook the other side." , "Add fresh fruit or other toppings to the inside, then fold both sides in." , "Enjoy warm."]
         
         self.mealType = "Breakfast"
@@ -254,7 +254,7 @@ class dinnerRecipe4{
     //Mark: Methods
     init(name: String, ingredients: [String], steps: [String], dinner: [String]) {
         self.name = "Cauliflower Soup"
-        self.ingredients = ["Three Tablespoons Olive Oil", "One Medium Onion", "One Head of Fresh Cauliflower(broken into florets)", "5 1/2 Cups of Water Divided", "Salt to Taste" , "Pepper to taste"]
+        self.ingredients = ["Three Tablespoons Olive Oil", "One Medium Onion", "One Head of Fresh Cauliflower(broken into florets)", "5 1/2 Cups of Water Divided", "Salt and Pepper to Taste"]
         self.steps = ["Warm the olive oil in a heavy-bottomed pan." , "Sweat the onion in the olive oil over low heat without letting it brown for 15 minutes." , "Add the cauliflower, salt to taste, and 1/2 cup water." , "Raise the heat slightly, cover the pot tightly and stew the cauliflower for 15 to 18 minutes, or until tender." , "Then add another 4 1/2 cups hot water, bring to a low simmer and cook an additional 20 minutes uncovered." , "Working in batches, purée the soup in a blender to a very smooth, creamy consistency." , "Let the soup stand for 20 minutes." , "In this time it will thicken slightly." , "Thin the soup with 1/2 cup hot water." , "Reheat the soup." , "Serve hot, drizzled with a thin stream of extra-virgin olive oil and freshly ground black pepper."]
         
         self.mealType = "Dinner"
