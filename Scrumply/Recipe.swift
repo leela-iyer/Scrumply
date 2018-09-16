@@ -32,19 +32,14 @@ var breakfastRecipe2 = Recipe(name: "Scrambled Eggs and Toast", ingredients: ["T
 
 var breakfastRecipe3 = Recipe(name: "Crepes", ingredients: ["Two Eggs", "One Cup of All Purpose Flour", "1/2 Cup of Milk" , "1/2 Cup of Water", "Two Tablespoons of Butter"], steps: ["In a large mixing bowl, whisk together the flour and the eggs." , "Gradually add in the milk and water, stirring to combine." , "Add the salt and butter; beat until smooth." , "Heat a lightly oiled griddle or frying pan over medium high heat." , "Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each crepe." , "Tilt the pan with a circular motion so that the batter coats the surface evenly." , "Cook the crepe for about 2 minutes, until the bottom is light brown." , "Loosen with a spatula, turn and cook the other side." , "Add fresh fruit or other toppings to the inside, then fold both sides in." , "Enjoy warm."], mealType: "Breakfast", servingSize: 1)
 
-class breakfastRecipe4{
-    // Mark Properties
-    var name: String
-    var ingredients: [String]
-    var steps: [String]
-    var mealType: String
+var breakfastRecipe4 = Recipe(name: "Three Ingredient Pumpkin Oat Clusters", ingredients: ["1/2 Cup of Old-Fashioned Oats", "1/2 Cup and 1 Tablespoon of Canned Pumpkin", "2 Tablespoons Maple Syrup"], steps: ["Preheat oven to 350º F." , "In a mixing bowl, combine oats, pumpkin, and maple syrup." , "Add your choice of add-ins, if desired." , "Place 1 rounded tablespoon of dough onto a baking sheet." , "Bake for 12 to 15 minutes." , "Remove from baking sheet and cool completely."], mealType:
+)
     
     //Mark: Methods
     init(name: String, ingredients: [String], steps: [String], breakfast: [String]) {
-        self.name = "Three Ingredient Pumpkin Oat Clusters"
-        self.ingredients = ["1/2 Cup of Old-Fashioned Oats", "1/2 Cup and 1 Tablespoon of Canned Pumpkin", "2 Tablespoons Maple Syrup"]
-        self.steps = ["Preheat oven to 350F." , "In a mixing bowl, combine oats, pumpkin, and maple syrup." , "Add your choice of add-ins, if desired." , "Place 1 rounded tablespoon of dough onto a baking sheet." , "Bake for 12 to 15 minutes." , "Remove from baking sheet and cool completely."]
-        
+        self.name =
+        self.ingredients =
+        self.steps =
         self.mealType = "Breakfast"
 }
 }
