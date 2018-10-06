@@ -11,12 +11,20 @@ import UIKit
 class RecipeViewController: UIViewController {
 
     @IBOutlet weak var servingSizeLabel: UILabel!
-    //var recipe = Recipe()
+    @IBOutlet weak var ingredientsTable: UITableView!
+    @IBOutlet weak var cookTimeLabel: UILabel!
+    @IBOutlet weak var prepTable: UITableView!
+    @IBOutlet weak var recipeImage: UIImageView!
+
+    var recipe = Recipe(name: "", ingredients: [], steps: [], mealType: "", servingSize: 0)
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        servingSizeLabel.text = String(recipe.servingSize)
+        
+        
         // For testing
         
     }
