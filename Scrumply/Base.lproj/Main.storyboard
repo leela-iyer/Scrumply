@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SGZ-z1-Pbp">
-    <device id="retina5_9" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,19 +15,19 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Scrumply" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="unf-mb-RaU">
-                                <rect key="frame" x="5" y="93" width="365" height="680"/>
+                                <rect key="frame" x="5" y="69" width="404" height="662"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ScrumplyLogoCopyPowerPoint" translatesAutoresizingMaskIntoConstraints="NO" id="rjz-cM-cHm">
-                                        <rect key="frame" x="60" y="0.0" width="245" height="76"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ScrumplyLogoCopyPowerPoint" translatesAutoresizingMaskIntoConstraints="NO" id="rjz-cM-cHm">
+                                        <rect key="frame" x="79.666666666666686" y="0.0" width="245" height="58"/>
                                         <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PictureForHomepage" translatesAutoresizingMaskIntoConstraints="NO" id="WIg-sO-dx2">
-                                        <rect key="frame" x="0.0" y="96" width="365" height="450"/>
+                                        <rect key="frame" x="0.0" y="78" width="404" height="450"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="300" id="u9O-tL-ie6">
                                                 <variation key="heightClass=regular" constant="450"/>
@@ -35,7 +35,7 @@
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iC0-KT-zzF" userLabel="CookingButton">
-                                        <rect key="frame" x="0.0" y="566" width="365" height="50"/>
+                                        <rect key="frame" x="0.0" y="548" width="404" height="50"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="U81-vW-7Ax"/>
@@ -51,7 +51,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kAe-71-i4I">
-                                        <rect key="frame" x="92.666666666666686" y="636" width="180" height="44"/>
+                                        <rect key="frame" x="112" y="618" width="180" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                         <state key="normal" title="About Scrumply"/>
                                         <connections>
@@ -89,38 +89,38 @@
             <objects>
                 <viewController id="bZE-4U-vzV" customClass="RecipePickerViewController" customModule="Scrumply" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jdJ-wM-YHC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="gKV-Ec-K4m" userLabel="Vertical Stack View">
-                                <rect key="frame" x="10" y="54" width="355" height="714"/>
+                                <rect key="frame" x="10" y="30" width="394" height="696"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Whats Cooking?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iaj-Os-h2u">
-                                        <rect key="frame" x="0.0" y="0.0" width="355" height="25.333333333333332"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="25"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="28"/>
                                         <color key="textColor" red="0.034335362895128299" green="0.45608904267061345" blue="0.70482217950632031" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Type:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DKQ-l6-c0Q">
-                                        <rect key="frame" x="0.0" y="35.333333333333329" width="355" height="21.666666666666671"/>
+                                        <rect key="frame" x="0.0" y="35" width="394" height="21.666666666666671"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="24"/>
                                         <color key="textColor" red="0.034335362895128299" green="0.45608904267061345" blue="0.70482217950632031" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bfk-Bt-auO">
-                                        <rect key="frame" x="0.0" y="67" width="355" height="75"/>
+                                        <rect key="frame" x="0.0" y="66.666666666666671" width="394" height="75.000000000000014"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="75" id="ktW-ru-lNk"/>
                                         </constraints>
                                     </pickerView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Results" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ifw-XP-bCf">
-                                        <rect key="frame" x="0.0" y="152" width="355" height="21.666666666666657"/>
+                                        <rect key="frame" x="0.0" y="151.66666666666666" width="394" height="21.333333333333343"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="24"/>
                                         <color key="textColor" red="0.034335362895128299" green="0.45608904267061345" blue="0.70482217950632031" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="eO7-ew-VZx">
-                                        <rect key="frame" x="0.0" y="183.66666666666669" width="355" height="530.33333333333326"/>
+                                        <rect key="frame" x="0.0" y="183" width="394" height="513"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </tableView>
                                 </subviews>
@@ -148,27 +148,27 @@
             <objects>
                 <viewController id="ht8-8e-elM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sxX-E4-uKB">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="D2N-6k-aLD">
-                                <rect key="frame" x="10" y="98" width="355" height="704"/>
+                                <rect key="frame" x="10" y="74" width="394" height="652"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Scrumply" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HMQ-xt-cSq" userLabel="About Label">
-                                        <rect key="frame" x="0.0" y="0.0" width="355" height="30.666666666666668"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="30.666666666666668"/>
                                         <fontDescription key="fontDescription" name="Charter-Black" family="Charter" pointSize="25"/>
                                         <color key="textColor" red="0.18493624332603986" green="0.57283053578928356" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2OX-CR-3Od">
-                                        <rect key="frame" x="0.0" y="30.666666666666657" width="355" height="423.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="30.666666666666657" width="394" height="371.33333333333337"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <string key="text">Welcome to Scrumply! An app that provides you with simply scrumptious meals made with 5-ingredients or less. If you are low on time or money, but still want to provide yourself and others with delicious, nutritious meals, Scrumply has your back. Our goal is to make sure that everyone gets a delicious meal despite their lack of time or ingredients! Scrumply has made it easy for you to find dishes for each meal that don’t require lots of time or ingredients. We hope you enjoy your simply scrumptious meal! </string>
                                         <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="22"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AboutScreenPicture" translatesAutoresizingMaskIntoConstraints="NO" id="adZ-Us-NSD">
-                                        <rect key="frame" x="0.0" y="454" width="355" height="250"/>
+                                        <rect key="frame" x="0.0" y="402" width="394" height="250"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="250" id="W8W-0c-N8D"/>
                                             <constraint firstAttribute="height" constant="135" id="mqX-US-XnK"/>
@@ -216,7 +216,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6BG-MD-VZE">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lAd-Lb-h9z">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lAd-Lb-h9z">
                                                 <rect key="frame" x="8" y="49" width="359" height="188"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="188" id="mOb-5I-yH0"/>
@@ -334,7 +334,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.77080945879999996" green="0.93585423170000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.76903224844410811" green="0.9993051587957712" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="baL-Qs-wPD" secondAttribute="trailing" constant="238" id="16j-ZZ-BFM"/>
                                             <constraint firstItem="Rep-mn-haO" firstAttribute="top" secondItem="lAd-Lb-h9z" secondAttribute="bottom" constant="14" id="1IW-Ay-7aj"/>
@@ -422,7 +422,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="SGZ-z1-Pbp" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="B2R-QK-ytl">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
