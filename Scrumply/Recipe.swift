@@ -16,15 +16,17 @@ class Recipe {
     var mealType: String = ""
     var servingSize: Int = 0
     var cookTime: String = ""
+    var image: String = ""
     
     // Mark: Methods
-    init(name: String, ingredients: [String], steps: [String], mealType: String, servingSize: Int, cookTime: String) {
+    init(name: String, ingredients: [String], steps: [String], mealType: String, servingSize: Int, cookTime: String, image: String) {
         self.name = name
         self.ingredients = ingredients
         self.steps = steps
         self.mealType = mealType
         self.servingSize = servingSize
         self.cookTime = cookTime
+        self.image = image
     }
 }
 
@@ -52,7 +54,7 @@ var lunchRecipe4 = Recipe(name: "Pizza Bagels", ingredients: ["Three Bagels Cut 
 var lunchRecipe5 = Recipe(name: "Hummus and Cucumber Crostinis", ingredients: ["Package of Bagel Chips", "Container of Hummus", "One Thinly Sliced English Cucumber"], steps: ["Dividing evenly, top the bagel chips with the hummus and cucumber."], mealType: "Lunch", servingSize: 10, cookTime: "5 minutes")
 
 
-var dinnerRecipe1 = Recipe(name: "BBQ Sweet Potatoes", ingredients: ["Two Medium Sweet Potatoes Halved", "One Pound Chicken Breast", "1/3 Cup of BBQ Sauce" , "Parsley/Green Onion"], steps: ["Preheat oven to 425 degrees F. Lay sweet potatoes cut side up on a large baking sheet." , "Roast until tender, about 35 minutes, depending on size of your potatoes." , "In a saucepan set to medium-low, stir together chicken and BBQ sauce." , "Heat until warm, 5-10 minutes." , "Top each potato with scoopfuls of chicken." , "Spoon over additional BBQ sauce and sprinkle with chopped parsley or sliced green onions, if desired." , "Enjoy!"], mealType: "Dinner", servingSize: 3/4)
+var dinnerRecipe1 = Recipe(name: "BBQ Sweet Potatoes", ingredients: ["Two Medium Sweet Potatoes Halved", "One Pound Chicken Breast", "1/3 Cup of BBQ Sauce" , "Parsley/Green Onion"], steps: ["Preheat oven to 425 degrees F. Lay sweet potatoes cut side up on a large baking sheet." , "Roast until tender, about 35 minutes, depending on size of your potatoes." , "In a saucepan set to medium-low, stir together chicken and BBQ sauce." , "Heat until warm, 5-10 minutes." , "Top each potato with scoopfuls of chicken." , "Spoon over additional BBQ sauce and sprinkle with chopped parsley or sliced green onions, if desired." , "Enjoy!"], mealType: "Dinner", servingSize: 3/4, cookTime: "50 minutes")
 
 var dinnerRecipe2 = Recipe(name: "Black Bean Soup", ingredients: ["2 Cans(15.5 Ounces)Black Beans", "One Cup Chicken Broth", "Fifteen Ounces of Tomatos"], steps: ["Combine all ingredients in a medium pot." , "Bring to a boil and simmer for 10 minutes." , "Remove from stove and blend using an immersion blender or a traditional blender."], mealType: "Dinner", servingSize: 3, cookTime: "18 minutes")
 
