@@ -11,12 +11,25 @@ import UIKit
 class RecipeViewController: UIViewController {
 
     @IBOutlet weak var servingSizeLabel: UILabel!
-    //var recipe = Recipe()
+    @IBOutlet weak var cookTimeLabel: UILabel!
+    @IBOutlet weak var recipeImage: UIImageView!
+    @IBOutlet weak var mealNameLabel: UILabel!
+    @IBOutlet weak var ingredientsLabel: UILabel!
+    @IBOutlet weak var prepLabel: UILabel!
+    
+    var recipe = Recipe(name: "", ingredients: [], steps: [], mealType: "", servingSize: 0, cookTime: "", image: )
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        servingSizeLabel.text = String(recipe.servingSize)
+        cookTimeLabel.text = String(recipe.cookTime)
+        mealNameLabel.text = String(recipe.name)
+        ingredientsLabel.text = recipe.ingredients.joined(separator: "\n")
+        prepLabel.text = recipe.steps.joined(separator: "\n")
+        recipeImage.image = recipe.
+        
         // For testing
         
     }
