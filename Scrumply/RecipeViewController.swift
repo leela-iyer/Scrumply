@@ -27,6 +27,7 @@ class RecipeViewController: UIViewController {
         servingSizeLabel.text = String(recipe.servingSize)
         cookTimeLabel.text = String(recipe.cookTime)
         mealNameLabel.text = String(recipe.name)
+        mealTypeLabel.text = String(recipe.mealType)
         ingredientsLabel.text = recipe.ingredients.joined(separator: "\n")
         prepLabel.text = recipe.steps.joined(separator: "\n")
         recipeImage.image = UIImage(named: recipe.image)
