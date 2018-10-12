@@ -22,7 +22,7 @@ class RecipeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        recipe = breakfastRecipe1
+        recipe = breakfastRecipe2
         // Do any additional setup after loading the view.
         servingSizeLabel.text = String(recipe.servingSize)
         cookTimeLabel.text = String(recipe.cookTime)
