@@ -1,5 +1,5 @@
 //
-//  MealTableViewCell.swift
+//  RecipeTableViewCell.swift
 //  FoodTracker
 //
 //  Created by Leela I on 9/30/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MealTableViewCell: UITableViewCell {
+class RecipeTableViewCell: UITableViewCell {
     //MARK: Properties
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var photoImageView: UIImageView!

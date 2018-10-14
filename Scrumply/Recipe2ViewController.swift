@@ -18,9 +18,9 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
     
     /*
      This value is either passed by `MealTableViewController` in `prepare(for:sender:)`
-     or constructed as part of adding a new meal.
+     or constructed as part of adding a new recipe.
      */
-    var meal: Meal?
+    var recipe: Recipe?
     
     
     
@@ -31,11 +31,11 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         nameTextField.delegate = self
         
         // Set up views if editing an existing Meal.
-        if let meal = meal {
-            navigationItem.title = meal.name
-            nameTextField.text   = meal.name
-            photoImageView.image = meal.photo
-            ratingControl.rating = meal.rating
+        if let recipe = recipe {
+            navigationItem.title = recipe.name
+            nameTextField.text   = recipe.name
+            photoImageView.image = recipe.image
+            ratingControl.rating = recipe.rating
         }
         
         // Enable the Save button only if the text field has a valid Meal name.
@@ -102,9 +102,9 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
     
     @IBAction func cancel(_ sender: UIBarButtonItem) {
         // Depending on style of presentation (modal or push presentation), this view controller needs to be dismissed in two different ways.
-        let isPresentingInAddMealMode = presentingViewController is UINavigationController
+        let isPresentingInAddRecipeMode = presentingViewController is UINavigationController
             
-        if isPresentingInAddMealMode {
+        if isPresentingInAddRecipeMode {
                 dismiss(animated: true, completion: nil)
         }
         else if let owningNavigationController = navigationController{
@@ -134,8 +134,8 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         let photo = photoImageView.image
         let rating = ratingControl.rating
         
-        // Set the meal to be passed to MealTableViewController after the unwind segue.
-        meal = Meal(name: name, photo: photo, rating: rating)
+        // Set the recipe to be passed to MealTableViewController after the unwind segue.
+        recipe = Recipe(name: name, photo: photo, rating: rating)
     }
     
     @IBAction func selectImageFromPhotoLibrary(_ sender: UITapGestureRecognizer) {

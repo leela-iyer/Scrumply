@@ -17,12 +17,14 @@ class RecipeViewController: UIViewController {
     @IBOutlet weak var ingredientsLabel: UILabel!
     @IBOutlet weak var prepLabel: UILabel!
     @IBOutlet weak var mealTypeLabel: UILabel!
+    @IBOutlet weak var ratingControl: RatingControl!
     
-    var recipe = Recipe(name: "", ingredients: [], steps: [], mealType: "", servingSize: 0, cookTime: "", image: "")
+    var recipe = Recipe(name: "", ingredients: [], steps: [], mealType: "", servingSize: 0, cookTime: "", image: "", rating: 0)
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        recipe = breakfastRecipe3
+        recipe = lunchRecipe2
+        
         // Do any additional setup after loading the view.
         servingSizeLabel.text = String(recipe.servingSize)
         cookTimeLabel.text = String(recipe.cookTime)
@@ -31,6 +33,7 @@ class RecipeViewController: UIViewController {
         ingredientsLabel.text = recipe.ingredients.joined(separator: "\n")
         prepLabel.text = recipe.steps.joined(separator: "\n")
         recipeImage.image = UIImage(named: recipe.image)
+        ratingControl.rating = recipe.rating
         // For testing
         
     }

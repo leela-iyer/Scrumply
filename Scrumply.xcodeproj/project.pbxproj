@@ -15,6 +15,9 @@
 		234C80FB2108C97C00C3340F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234C80F92108C97C00C3340F /* LaunchScreen.storyboard */; };
 		234C81062108C97C00C3340F /* ScrumplyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234C81052108C97C00C3340F /* ScrumplyTests.swift */; };
 		234C81112108C97C00C3340F /* ScrumplyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234C81102108C97C00C3340F /* ScrumplyUITests.swift */; };
+		235741D5217247D30003717C /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235741D1217247D10003717C /* RecipeTableViewCell.swift */; };
+		235741D6217247D30003717C /* RecipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235741D2217247D20003717C /* RecipeTableViewController.swift */; };
+		235741D8217247D30003717C /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235741D4217247D20003717C /* RatingControl.swift */; };
 		23604FC121456E9C00BA43EF /* RecipePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23604FC021456E9C00BA43EF /* RecipePickerViewController.swift */; };
 		239F9666212CD121006B3C8E /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239F9665212CD121006B3C8E /* Recipe.swift */; };
 /* End PBXBuildFile section */
@@ -51,6 +54,9 @@
 		234C810C2108C97C00C3340F /* ScrumplyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumplyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		234C81102108C97C00C3340F /* ScrumplyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumplyUITests.swift; sourceTree = "<group>"; };
 		234C81122108C97C00C3340F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		235741D1217247D10003717C /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
+		235741D2217247D20003717C /* RecipeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeTableViewController.swift; sourceTree = "<group>"; };
+		235741D4217247D20003717C /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		23604FC021456E9C00BA43EF /* RecipePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipePickerViewController.swift; sourceTree = "<group>"; };
 		239F9665212CD121006B3C8E /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,15 +109,18 @@
 		234C80EF2108C97800C3340F /* Scrumply */ = {
 			isa = PBXGroup;
 			children = (
+				239F9665212CD121006B3C8E /* Recipe.swift */,
+				14729EF62145CCF4001582A8 /* RecipeViewController.swift */,
+				235741D1217247D10003717C /* RecipeTableViewCell.swift */,
+				235741D2217247D20003717C /* RecipeTableViewController.swift */,
+				235741D4217247D20003717C /* RatingControl.swift */,
 				234C80F02108C97800C3340F /* AppDelegate.swift */,
 				23604FC021456E9C00BA43EF /* RecipePickerViewController.swift */,
 				234C80F22108C97800C3340F /* ViewController.swift */,
 				234C80F42108C97800C3340F /* Main.storyboard */,
-				14729EF62145CCF4001582A8 /* RecipeViewController.swift */,
 				234C80F72108C97C00C3340F /* Assets.xcassets */,
 				234C80F92108C97C00C3340F /* LaunchScreen.storyboard */,
 				234C80FC2108C97C00C3340F /* Info.plist */,
-				239F9665212CD121006B3C8E /* Recipe.swift */,
 			);
 			path = Scrumply;
 			sourceTree = "<group>";
@@ -267,6 +276,9 @@
 			files = (
 				23604FC121456E9C00BA43EF /* RecipePickerViewController.swift in Sources */,
 				239F9666212CD121006B3C8E /* Recipe.swift in Sources */,
+				235741D6217247D30003717C /* RecipeTableViewController.swift in Sources */,
+				235741D8217247D30003717C /* RatingControl.swift in Sources */,
+				235741D5217247D30003717C /* RecipeTableViewCell.swift in Sources */,
 				234C80F32108C97800C3340F /* ViewController.swift in Sources */,
 				234C80F12108C97800C3340F /* AppDelegate.swift in Sources */,
 				14729EF72145CCF4001582A8 /* RecipeViewController.swift in Sources */,
