@@ -121,9 +121,6 @@ class RecipeTableViewController: UITableViewController {
         
         switch(segue.identifier ?? "") {
             
-        case "AddItem":
-            os_log("Adding a new recipe.", log: OSLog.default, type: .debug)
-            
         case "ShowDetail":
             guard let recipeDetailViewController = segue.destination as? RecipeViewController else {
                 fatalError("Unexpected destination: \(segue.destination)")
